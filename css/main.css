@@ -79,6 +79,10 @@ body {
     flex-direction: row-reverse;
 }
 
+.tituloAbout {
+    font-size: 3em !important;
+}
+
 .footer {
     display: flex;
     align-items: center;
