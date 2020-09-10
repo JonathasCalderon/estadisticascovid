@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    background-color: #00A87E;
+}
+
+.ayduaMedica {
+    margin-left: 50px;
+}
+
+.linkSintoma {
+    text-decoration: none;
+}

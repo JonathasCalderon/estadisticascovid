@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    margin-top: 10px;
+    font-size: 2em;
+    padding: 10px, 15px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    padding-top: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.1);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.sectionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: auto;
+    max-width: 550px;
+}
+
+.sectionContent h1 {
+    height: auto;
+    font-size: 3.2em;
+}
+
+.sectionContent p {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sectionImage {
+    height: 400px;
+    width: 400px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #16213e;
+    height: 30px;
+}
+
+.footer h6 {
+    font-size: 1em;
+}
