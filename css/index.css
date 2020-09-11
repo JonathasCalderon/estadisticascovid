@@ -64,3 +64,13 @@ background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
 .casos {
     color: rgba(0, 0, 0, 0.9);
 }
+
+.ultimaActualizacion {
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+.tituloUltimaActualizacion {
+    font-size: 1.2em;
+    color: whitesmoke;
+}

@@ -36,12 +36,16 @@
                     Bolivia
                     <img class="bandera" src="./img/banderaBolivia.png" alt="bolivia">
                 </h1>
-                <h2>Casos Positivos</h2>
-                <h5 class="casos">1263876</h5>
+                <h2>Casos Confirmados</h2>
+                <h5 id="confirmed" class="casos">1263876</h5>
                 <h2>Casos Recuperados</h2>
-                <h5 class="casos">1263876</h5>
+                <h5 id="recovered" class="casos">1263876</h5>
                 <h2>Muertes</h2>
-                <h5 class="casos">1263876</h5>
+                <h5 id="dead" class="casos">1263876</h5>
+                <p class="tituloUltimaActualizacion">Ultima Actualizacion</p>
+                <small id="updated" class="ultimaActualizacion">
+                    ultima actualizacion: 2020/10/02
+                </small>
             </div>
             <div class="svgGraphic">
                 <img src="./img/undraw_visual_data_b1wx.svg" alt="grafico">
@@ -51,6 +55,8 @@
     <footer class="footer">
         <h6>Estadisticas Covid &reg;</h6>
     </footer>
+
+    <script src="./js/fetchApi.js"></script>
 </body>
 
 </html>
