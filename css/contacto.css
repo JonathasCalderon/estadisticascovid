@@ -1,25 +1,30 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-}
-form{
+.clase-form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 450px;
-    margin: auto;
-    background: rgb(0, 0, 0, 0.4);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
+    background: #00A87E;
     border-radius: 7px;
-}
-h2{
+    height: auto;
+   }
+   
+.clase-1 h2{
     color: #fff;
     text-align: center;
     margin: 0;
     font-size: 30px;
     margin-bottom: 20px;
 }
-input, textarea{
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   }
+.clase-nav input, textarea{
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -27,21 +32,21 @@ input, textarea{
     font-size: 17px;
     border: none;
 }
-textarea{
+.clase-nav textarea{
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
 }
-#boton{
-    background: #31384A;
+.clase-nav #boton{
+    background: #000000;
     color: #fff;
     padding: 20px;
 }
-#boton:hover{
+.clase-nav #boton:hover{
     cursor: pointer;
 }
 @media(max-width:480px){
-    form{
+    .form{
         width: 100%;
     }
 }
