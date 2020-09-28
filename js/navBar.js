@@ -45,4 +45,5 @@ const logoInicio = () => {
 
 navSlide()
 footerDate()
+logoInicio()
 window.onresize = logoInicio
