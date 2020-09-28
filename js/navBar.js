@@ -29,6 +29,20 @@ const footerDate = () => {
     footer.innerHTML = footer.innerHTML + date
 }
 
+const logoInicio = () => {
+    const logo = document.getElementById('logo-inicio')
+
+    console.log(window.innerWidth)
+
+    if (window.innerWidth > 1000) {
+        logo.src = "./img/editadoblanco.png"
+    }
+    else {
+        logo.src = "./img/editadonegro.png"
+    }
+}
+
 
 navSlide()
 footerDate()
+window.onresize = logoInicio
