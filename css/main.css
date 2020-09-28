@@ -151,12 +151,11 @@ body {
     }
 
     .navbar {
-        position: static;
         height: 10vh;
     }
 
     .nav-links {
-        position: absolute;
+        position: fixed;
         right: -20px;
         background-color: #00A87E;
         top: 10vh;
