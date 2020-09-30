@@ -37,20 +37,20 @@
         
             <h2 class="clase-1">CONTACTO</h2>
             <nav class="clase-nav">
-             <input type="text" name="Nombre" placeholder="Nombre">
-             <input type="text" name="Apellido" placeholder="Apellido " >
-             <input type="text" name="Direccion" placeholder="eDireccion">
-             <input type="text" name="Telefono" placeholder="Telefono">
-             <input type="text" name="Correo" placeholder="Correo">
+             <input type="text" name="Nombre" placeholder="Nombre" required>
+             <input type="text" name="Apellido" placeholder="Apellido " required>
+             <input type="text" name="Direccion" placeholder="Direccion" required>
+             <input type="text" name="Telefono" maxlength="7" placeholder="444-44-44" pattern="[0-9]{7,8}"  required>
+             <input type="email" name="Correo" placeholder="Correo" required>
              <textarea name="mensaje" placeholder="Escriba aqui el mensaje"></textarea>
-             <input type="button" value="Enviar" id="boton">
+             <input type="submit" value="Enviar" id="boton" onclick="alerta()">
             </nav>
         </form>
     </div>
     <footer class="footer">
         <h6>Estadisticas Covid &reg;</h6>
     </footer>
-    
+  
     <script src="./js/navBar.js"></script>
     <script src="https://kit.fontawesome.com/6d0d910aeb.js" crossorigin="anonymous"></script>
 </body>
